@@ -1,10 +1,10 @@
-
-import './App.css';
+import './assets/CSS/layout.css';
+import Products from './components/Products';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="main-grid-container">
+      <Products/>
     </div>
   );
 }
